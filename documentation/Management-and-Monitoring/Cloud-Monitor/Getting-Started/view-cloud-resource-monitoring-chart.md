@@ -15,4 +15,3 @@
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/3.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
 
 2. 点击“监控”进入该资源的监控页面，即可看到该实例各指标的监控数据。
-

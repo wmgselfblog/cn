@@ -38,16 +38,40 @@
   items:
     - name: Dashboard
       href: Getting-Started/Dashboard.md
+        - name: 使用须知
+          href: Operation-Guide/dashboard/terms-and-conditions.md
+        - name: 我关注的面板
+          href: Operation-Guide/dashboard/focus-page.md
+        - name: 管理监控面板
+          href: Operation-Guide/dashboard/dashboard-management.md      
+        - name: 管理监控图表
+          href: Operation-Guide/dashboard/monitoring-chart-management.md
     - name: 云资源监控
       href: Getting-Started/云资源监控.md
+        - name: 资源监控
+          href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
+        - name: 查看资源监控图表
+          href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart.md
+        - name: 对资源设置监控报警
+          href: Operation-Guide/resource-monitoring/set-alarm-rules.md     
     - name: 自定义监控
-      href: Getting-Started/自定义监控.md       
+      href: Getting-Started/自定义监控.md  
+        - name: 自定义监控概述
+          href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
+        - name: 查看监控数据
+          href: Operation-Guide/custom-monitoring/view-monitoring-data.md
+        - name: 删除监控数据
+          href: Operation-Guide/custom-monitoring/delete-monitoring-data.md      
+        - name: 设置报警规则
+          href: Operation-Guide/custom-monitoring/set-alarm-rules.md
+        - name: 查看历史报警
+          href: Operation-Guide/custom-monitoring/view-alarm-history.md
 - name: 最佳实践
   items:
     - name: 批量资源监控
-      href: Best-Practices/批量资源监控.md
-    - name: 日常业务监控管理
-      href: Best-Practices/日常业务监控管理.md
+      href: Best-Practices/bulk-resource-monitoring.md
+    - name: 日常业务监控
+      href: Best-Practices/business-monitoring.md
 - name: 教程
   items:
   status: 0
@@ -71,6 +95,4 @@
   - name: 备案         
     status: 0        
   - name: 词汇表          
-    status: 0          
-          
-          
+    status: 0

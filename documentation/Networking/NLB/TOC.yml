@@ -62,9 +62,7 @@
       - name: 虚拟服务器组管理
         href: Operation-Guide/TargetGroup-Management.md
       - name: 监控服务
-        href: Operation-Guide/Monitoring.md
-      - name: 使用限制
-        href: Operation-Guide/Restrictions.md                
+        href: Operation-Guide/Monitoring.md             
   - name: 最佳实践
     items:
     - name: 利用网络负载均衡部署源IP透传TCP服务
@@ -88,10 +86,8 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href:
     status: 0      
   - name: SDK参考
-    href:
     status: 0      
   - name: 用户协议
     items:
