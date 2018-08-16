@@ -1,4 +1,4 @@
-    ACTIVE_EXCEPTION(-1, "接口异常"),
+﻿    ACTIVE_EXCEPTION(-1, "接口异常"),
     ACTIVE_SUCCESS(0, "成功"),
     ACTIVE_FAILURE(1, "失败"),
     ERROR_PARAMS_NOT_NULL(2, "参数不能为空"),
@@ -75,3 +75,20 @@
     IP("ip","公网IP"),
     SQLSERVER("sqlserver","云数据库Sqlserver"),
     STORAGE("storage","云存储");
+
+
+
+
+
+
+
+
+
+
+
+
+
+jcloud.billingTypes={"billingTypes":[{"category":1,"categoryDescription":"按配置","description":"按配置","feeType":1},{"category":6,"categoryDescription":"包年包月","description":"包年包月（1个月）","feeType":601},{"category":6,"categoryDescription":"包年包月","description":"包年包月（2个月）","feeType":602},{"category":6,"categoryDescription":"包年包月","description":"包年包月（3个月）","feeType":603},{"category":6,"categoryDescription":"包年包月","description":"包年包月（4个月）","feeType":604},{"category":6,"categoryDescription":"包年包月","description":"包年包月（5个月）","feeType":605},{"category":6,"categoryDescription":"包年包月","description":"包年包月（6个月）","feeType":606},{"category":6,"categoryDescription":"包年包月","description":"包年包月（7个月）","feeType":607},{"category":6,"categoryDescription":"包年包月","description":"包年包月（8个月）","feeType":608},{"category":6,"categoryDescription":"包年包月","description":"包年包月（9个月）","feeType":609},{"category":6,"categoryDescription":"包年包月","description":"包年包月（1年，按10个月计）","feeType":610},{"category":6,"categoryDescription":"包年包月","description":"包年包月（2年，按20个月计）","feeType":620},{"category":6,"categoryDescription":"包年包月","description":"包年包月（3年，按30个月计）","feeType":630}]}
+
+
+
