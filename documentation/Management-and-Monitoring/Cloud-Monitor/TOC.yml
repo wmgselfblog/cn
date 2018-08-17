@@ -38,6 +38,7 @@
   items:
     - name: Dashboard
       href: Getting-Started/Dashboard.md
+         items:
         - name: 使用须知
           href: Operation-Guide/dashboard/terms-and-conditions.md
         - name: 我关注的面板
@@ -48,6 +49,7 @@
           href: Operation-Guide/dashboard/monitoring-chart-management.md
     - name: 云资源监控
       href: Getting-Started/云资源监控.md
+         items:
         - name: 资源监控
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
         - name: 查看资源监控图表
@@ -56,6 +58,7 @@
           href: Operation-Guide/resource-monitoring/set-alarm-rules.md     
     - name: 自定义监控
       href: Getting-Started/自定义监控.md  
+         items:
         - name: 自定义监控概述
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
         - name: 查看监控数据

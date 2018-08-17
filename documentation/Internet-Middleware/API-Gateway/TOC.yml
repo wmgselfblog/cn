@@ -1,9 +1,9 @@
-- name: 云数据库 MongoDB
+- name: API网关 API Gateway
   href: 
 - name: 产品简介....
   items:
     - name: 产品概述
-      herf: Introduction/What-Is-MongoDB.md
+      herf: Introduction/What-Is-APIGateway.md
     - name: 核心概念
       herf: Introduction/Core-Concepts.md
     - name: 基础架构
@@ -30,70 +30,61 @@
       herf: Pricing/Purchase-Process.md 
     - name: 续费流程
       herf: Pricing/Renew-Process.md
+      status: 0 
 - name: 入门指南
   items:
-    - name: 创建实例
-      herf: Getting-Started/Create-Instance.md
-    - name: 设置白名单
-      herf: Getting-Started/Set-Whitelist.md
-    - name: 连接实例
-      herf: Getting-Started/Connect-Instance.md
-    - name: 导入数据
-      herf: Getting-Started/Import-Data.md
-    - name: 导出数据
-      herf: Getting-Started/Export-Data.md
+    - name: 概述
+      herf: Getting-Started/Overview.md
+    - name: 创建API分组
+      herf: Getting-Started/STEP1-Create -APIGroup.md
+    - name: 创建API
+      herf: Getting-Started/STEP2-Create-API.md
+    - name: 自定义域名
+      herf: Getting-Started/STEP3-1-Create-Domain.md
+    - name: 后端签名
+      herf: Getting-Started/STEP3-2-Create-BackSign.md
+    - name: 流控策略
+      herf: Getting-Started/STEP3-3-Create-Stream.md
+    - name: 发布API分组
+      herf: Getting-Started/STEP4-Create-Publish.md  
+    - name: API的访问授权
+      herf: Getting-Started/STEP5-Create-Auth.md
 - name: 操作指南
   items:
-    - name: 实例管理
+    - name: 创建API
       items:
-        - name: 变更配置
-          herf: Operation-Guide/Instance-Management/Modify-Instance-Spec.md
-        - name: 重启实例
-          herf: Operation-Guide/Instance-Management/Restart-Instance.md
-        - name: 续费实例
-          herf: Operation-Guide/Instance-Management/Renewal-Instructions.md      
-        - name: 删除实例
-          herf: Operation-Guide/Instance-Management/Delete-Instance.md
-    - name: 账号管理
+        - name: 创建API
+          herf: Create-API/Create-API.md
+    - name: 创建API分组
       items:
-        - name: 创建账号
-          herf: Operation-Guide/Account-Management/Create-MongoDB-Account.md
-        - name: 修改密码
-          herf: Operation-Guide/Account-Management/Reset-Password.md
-    - name: 备份管理
+        - name: 创建API分组
+          herf: Create-APIGroup/Create-APIGroup.md
+    - name: API的访问授权
       items:
-        - name: 设置自动备份
-          herf: Operation-Guide/Backup/Modify-Backup-Policy.md        
-        - name: 手动创建备份
-          herf: Operation-Guide/Backup/Create-Backup.md       
-        - name: 下载备份文件
-          herf: Operation-Guide/Backup/Download-Bckup.md    
-        - name: 恢复数据
-          herf: Operation-Guide/Backup/Restore-Instance.md       
-        - name: 根据备份创建实例
-          herf: Operation-Guide/Backup/Create-Instance2.md      
-        - name: 根据时间点创建实例          
-          herf: Operation-Guide/Backup/Create-Instance3.md      
-    - name: 跨地域备份同步服务
+        - name: API的访问授权
+          herf: Create-Auth/Create-Auth.md  
+    - name: 后端签名
       items:
-        - name: 创建跨地域备份同步服务
-          herf: Operation-Guide/Across-Region-Backup-Sync/Create-Backup-Sync.md  
-        - name: 根据备份数据创建实例
-          herf: Operation-Guide/Across-Region-Backup-Sync/Create-Instance4.md
-     - name: 监控报警
-       items:
-        - name: 查看监控信息
-          herf: Operation-Guide/Monitoring/Monitoring.md
-        - name: 设置报警规则
-          herf: Operation-Guide/Monitoring/Alarm-Rules.md              
+        - name: 后端签名
+          herf: Create-BackSign/Create-BackSign.md  
+    - name: 自定义域名
+      items:
+        - name: 自定义域名
+          herf: Create-Domain/Create-Domain.md  
+    - name: 发布API分组
+      items:
+        - name: 发布API分组
+          herf: Create-Publish/Create-Publish.md  
+    - name: 流控策略
+      items:
+        - name: 流控策略
+          herf: Create-Stream/Create-Stream.md  
+    
 - name: 最佳实践
   items:
-  - name: 使用MongoDB的固定集合
-    herf: Best-Practices/Capped-Collections.md
-  - name: MongoDB 开启慢日志分析
-    herf: Best-Practices/MongoDB-Profile.md
-  - name: 公网连接MongoDB实例
-    herf: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
+  - name: 最佳实践
+    herf: Best-Practices/BestPractices.md
+ 
 - name: 教程
   items:
   status: 0
@@ -101,16 +92,21 @@
   items:
   - name: 云主机无法连接MongoDB实例？
     herf: Troubleshooting/Connect-Failed.md
+    status: 0 
   - name: 云数据库 MongoDB 不支持哪些命令？
     herf: Troubleshooting/Command.md
+    status: 0 
   - name: 账号密码正确，连接提示无权限？
-    herf: Troubleshooting/Authentication.md        
+    herf: Troubleshooting/Authentication.md    
+    status: 0 
 - name: 常见问题
-  herf: FAQ/FAQ.md
+  herf: FAQ/faq.md
 - name: API参考
   herf:
+  status: 0 
 - name: SDK参考
   herf:
+  status: 0 
 - name: 相关资源
   items:
   - name: 文档历史记录

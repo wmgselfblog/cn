@@ -8,7 +8,7 @@ DevOps提供了基础服务、产品服务和解决方案三大类，共同发�
 **业务架构**
 
 业务架构如下图：
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/DevOps/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E4%B8%9A%E5%8A%A1%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Introduction1.png)
 
 | 名称      |   描述  | 
 | :--------: | :--------:|

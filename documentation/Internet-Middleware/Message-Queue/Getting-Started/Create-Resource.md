@@ -26,7 +26,7 @@
 - 对于消息4，消息没有tag，订阅者也没有tag，投递后，所有订阅者都能收到消息。
 
 ## 步骤三：创建 AccessKey和 SecretKey
-在调用消息队列 JCQ的SDK或者openAP进行消息的发送消费和管理操作时候，还需要验证用户的身份信息，即需要在控制台创建AccessKey和 SecretKey。
+在调用消息队列 JCQ的SDK或者openAPI进行消息的发送消费和管理操作时候，还需要验证用户的身份信息，即需要在控制台创建AccessKey和 SecretKey。
 ### 创建方法：
 在京东云用户中心账户管理下的AccessKey管理页面申请AccessKey和SecretKey密钥对（简称AK/SK）。
 AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。AK/SK密钥对允许启用、禁用，启用后可用其调用OpenAPI，禁用后不能用其调用OpenAPI。

@@ -41,8 +41,9 @@ TCP监听：
 
 ## 相关参考
 
-- [产品优势](../Product-Introduction/Benefits.md)
-- [产品功能](../Product-Introduction/Functions.md)
+- [产品优势](../Introduction/Benefits.md)
+- [产品功能](../Introduction/Functions.md)
 - [价格总览](../Pricing/Price-Overview.md)
 - [计费规则](../Pricing/Billing-Rules.md)
-- [创建实例](../Getting-Started/Create-ALB-Instance.md)
+- [创建实例](../Getting-Started/Create-Instance.md)
+
