@@ -1,17 +1,16 @@
 # 弱点详情
 
-弱点事件
+### 弱点事件
 
-- 界面
+#### 界面
 
-  ![2018-06-25_171324.png](https://img1.jcloudcs.com/cms/c808b2a0-4d36-43cb-8cbd-22b975fa031020180716105246.png)![2018-06-25_171414.png](https://img1.jcloudcs.com/cms/bfc50730-5fd9-494b-babf-a66be790297820180716105351.png)
+  ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/wd-1.png)
+  ![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/wd-2.png)
 
-- 功能说明
-
-- - 目前提供基于主机漏洞详情，以漏洞为统计维度想用户展示主机弱点。督促用户修复相关漏洞。
+#### 功能说明
+目前提供基于主机漏洞详情，以漏洞为统计维度想用户展示主机弱点。督促用户修复相关漏洞。
 
 - 操作步骤
-
-- - 点击漏洞名称跳转到【漏洞详情页】以及关联的账号资产。
-  - 点击多选框，可以批量修复。
-  - Windows系统可以点击修复操作，Linux给出修复建议，用户自行修复。
+点击漏洞名称跳转到【漏洞详情页】以及关联的账号资产。
+点击多选框，可以批量修复。
+Windows系统可以点击修复操作，Linux给出修复建议，用户自行修复。

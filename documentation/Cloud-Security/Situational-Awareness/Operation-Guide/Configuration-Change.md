@@ -1,40 +1,32 @@
 # 配置变更
 
-- 资产管理
+### 资产管理
 
-- - 界面
+#### 界面 
 
-    ![2018-06-25_170711.png](https://img1.jcloudcs.com/cms/837080b4-ebfb-4d3b-900c-1ed6bfdaa96620180716113105.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-1.png)
 
-- ![20180810132101.png](https://img1.jcloudcs.com/cms/49540122-4b17-488e-8ffd-3fa8ca0a861820180810132113.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-2.png)
 
-- ![20180810131907.png](https://img1.jcloudcs.com/cms/60d4ef44-d71b-45ce-99dc-23a938460bf220180810131925.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-3.png)
 
-- - 功能说明
+#### 功能说明
+本期由于引入主机相关的威胁事件，态势感知资产的概念也扩充到外网IP和内网IP的组合。提供基于内外网IP查询。以及网络检测引擎开放和关闭功能。
 
-  - - - - 本期由于引入主机相关的威胁事件，态势感知资产的概念也扩充到外网IP和内网IP的组合。提供基于内外网IP查询。以及网络检测引擎开放和关闭功能。![img](http://cms.jcloud.com/ueditor/themes/default/images/spacer.gif)
+#### 操作步骤
+关闭全部网络检测引擎，点击“开通状态”按钮，会关闭所有态势感知监控的IP。
+关闭单个公网IP的网络检测引擎，点击“网络引擎操作”对应的公网IP。
+批量关闭公网IP的网络检测引擎，可以使用云态势感知提供的OpenAPI功能关闭
+点击内网IP数量，显示这个公网IP对应的内网IP，可以查询主机安全软件安装状态，同时可以点击“去安装”跳转到主机安全客户端安全页面。
+在账号资产中可以通过公网IP、内网IP查询相关数据。
 
-  - 操作步骤
+### 事件告警
+#### 界面
+![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-4.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-csa/image/Situational-Awareness/cc-5.jpg)
 
-  - - - - 关闭全部网络检测引擎，点击“开通状态”按钮，会关闭所有态势感知监控的IP。
-        - 关闭单个公网IP的网络检测引擎，点击“网络引擎操作”对应的公网IP。
-        - 批量关闭公网IP的网络检测引擎，可以使用云态势感知提供的OpenAPI功能关闭
-        - 点击内网IP数量，显示这个公网IP对应的内网IP，可以查询主机安全软件安装状态，同时可以点击“去安装”跳转到主机安全客户端安全页面。
-        - 在账号资产中可以通过公网IP、内网IP查询相关数据。
+#### 功能说明
+为了让用户快速获取威胁事件告警，通过邮件、短信报警的方式通知用户。
 
-- 事件告警
-
-- - 界面
-
-    ![2018-06-25_175911.png](https://img1.jcloudcs.com/cms/44c308fb-4f59-47e9-abd9-7f16bd0be01d20180716110308.png)
-
-    ![2018-06-25_180125_meitu_1.jpg](https://img1.jcloudcs.com/cms/5e336d6a-3a51-4842-9a73-8c1f6464e44420180716110350.jpg)
-
-  - 功能说明
-
-  - - - - 为了让用户快速获取威胁事件告警，通过邮件、短信报警的方式通知用户。
-
-  - 操作步骤
-
-  - - - - 【配置变更】->【告警设置】，可以对单一事件、定向攻击事件告警级别、通知方式、通知时间、通知人设置。
-        - 告警设置发送规则：为提升用户体验，短信通知：单台云主机一天最多1条；单个账号一天最多5条。邮件通知：单个账号每天最多20封
+#### 操作步骤
+【配置变更】->【告警设置】，可以对单一事件、定向攻击事件告警级别、通知方式、通知时间、通知人设置。告警设置发送规则：为提升用户体验，短信通知：单台云主机一天最多1条；单个账号一天最多5条。邮件通知：单个账号每天最多20封
