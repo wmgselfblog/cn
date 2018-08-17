@@ -49,16 +49,18 @@
 	            href: Operation-Guide/Manage-Bucket/Bucket-Overview.md    
 	          - name: 创建存储空间
 	            href: Operation-Guide/Manage-Bucket/Create-Bucket.md
-            - name: 删除存储空间
+                  - name: 删除存储空间
 	            href:Operation-Guide/Manage-Bucket/Delete-Bucket.md 
-            - name:访问权限设置
+                  - name:访问权限设置
 	            href:Operation-Guide/Manage-Bucket/Set-Bucket-Policy.md
-            - name:跨域访问设置
+                  - name:跨域访问设置
 	            href:Operation-Guide/Manage-Bucket/Set-Bucket-CORS.md 
-            - name:静态网站托管设置
+                  - name:静态网站托管设置
 	            href:Operation-Guide/Manage-Bucket/Set-Bucket-Website.md
-            - name:跨区域复制设置
-	            href:Operation-Guide/Manage-Bucket/Set-Bucket-Cross-Region-Replication.md   
+                  - name:跨区域复制设置
+	            href:Operation-Guide/Manage-Bucket/Set-Bucket-Cross-Region-Replication.md
+		  - name:自定义域名设置
+	            href:Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name.md 
 	     - name:文件管理
 	        items:
 	          - name: 新建文件夹
@@ -77,29 +79,29 @@
 	            href: Operation-Guide/Image-Service-Guide/Introduction.md
 	          - name: 图片处理访问规则
 	            href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
-            - name: 快速使用图片服务
+                  - name: 快速使用图片服务
 	            href: Operation-Guide/Image-Service-Guide/Getting-Started.md  
-            - name: 图片缩放
+                  - name: 图片缩放
 	            href: Operation-Guide/Image-Service-Guide/Resize-Images.md
-            - name: 图片旋转
+                  - name: 图片旋转
 	            href: Operation-Guide/Image-Service-Guide/Rotate-Image.md 
-            - name: 图片裁剪
+                  - name: 图片裁剪
 	            href: Operation-Guide/Image-Service-Guide/Crop-Images.md 
-            - name: 格式转换
+                  - name: 格式转换
 	            href: Operation-Guide/Image-Service-Guide/Convert-Format.md
-            - name: 图片水印
+                  - name: 图片水印
 	            href: Operation-Guide/Image-Service-Guide/Add-Image-Watermarks.md
-            - name: 文字水印
+                  - name: 文字水印
 	            href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md 
-            - name: 获取图片信息
+                  - name: 获取图片信息
 	            href: Operation-Guide/Image-Service-Guide/Obtein-Image-Information.md
-            - name: 人脸检测
+                  - name: 人脸检测
 	            href: Operation-Guide/Image-Service-Guide/Face-Recognition.md
-            - name: 图片鉴黄
+                  - name: 图片鉴黄
 	            href: Operation-Guide/Image-Service-Guide/Porn-Recognition.md 
-            - name: 图片原图保护
+                  - name: 图片原图保护
 	            href: Operation-Guide/Image-Service-Guide/Source-Image-Protection.md
-            - name: 错误响应
+                  - name: 错误响应
 	            href: Operation-Guide/Image-Service-Guide/Response-To-Errors.md
 	      - name: 视频处理指南
 	        items:
