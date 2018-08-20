@@ -109,8 +109,7 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href: 
-    status: 0
+    href:
   - name: SDK参考
     href:
   - name: 用户协议
@@ -127,8 +126,8 @@
     - name: 文档历史记录
       href: Related-Resources/Document-History.md   
     - name: 备案
-      href:           
+      href: Related-Resources/Filing.md           
       status: 0        
     - name: 词汇表
-      href:          
+      href: Related-Resources/Glossary.md           
       status: 0
