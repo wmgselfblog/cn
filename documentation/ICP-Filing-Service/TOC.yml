@@ -1,21 +1,65 @@
-  name: 云数据库 MongoDB
+  name: 备案服务
   href: 
   items:
-  - name: 产品简介
+  - name: 备案入门
     items:
-      - name: 产品概述
-        href: Introduction/What-Is-MongoDB.md
-      - name: 核心概念
-        href: Introduction/Core-Concepts.md
-      - name: 基础架构
-        href: Introduction/Basic-Infrastructure.md
-      - name: 产品优势
-        href: Introduction/Benefits.md
-      - name: 产品功能
-        href: Introduction/Functions.md
-      - name: 产品规格
-        href: Introduction/Specification.md
-      - name: 限制说明
-        href: Introduction/Restrictions.md
-      - name: 应用场景 
-        href: Introduction/Application-Scenarios.md 
+      - name: 备案介绍
+        href: Getting-Started/Introduction.md
+      - name: 备案流程
+        href: Getting-Started/Process.md
+        - name: 管局规则
+        items:
+           - name: 安徽
+           href: Management-specification/Anhui.md
+           - name: 北京
+           href: Management-specification/Beijing.md
+           - name: 重庆
+           href: Management-specification/Chongqing.md
+           - name: 福建
+           href: Management-specification/Fujian.md
+           - name: 甘肃
+           href: Management-specification/Gansu.md
+           - name: 广东
+           href: Management-specification/Guangdong.md
+           - name: 广西
+           href: Management-specification/Guangxi.md
+           - name: 海南
+           href: Management-specification/Hainan.md
+           - name: 河北
+           href: Management-specification/Hebei.md
+           - name: 黑龙江
+           href: Management-specification/Heilongjiang.md
+           - name: 河南
+           href: Management-specification/Henan.md
+           - name: 湖北
+           href: Management-specification/Hubei.md
+           - name: 湖南
+           href: Management-specification/Hunan.md
+           - name: 江苏
+           href: Management-specification/Jiangsu.md
+           - name: 江西
+           href: Management-specification/Jiangxi.md
+           - name: 吉林
+           href: Management-specification/Jilin.md
+           - name: 辽宁
+           href: Management-specification/Liaoning.md
+           - name: 内蒙古
+           href: Management-specification/Neimenggu.md
+           - name: 宁夏
+           href: Management-specification/Ningxia.md
+           - name: 青海
+           href: Management-specification/Qinghai.md
+           - name: 山西
+           href: Management-specification/Shan-xi.md
+           - name: 上海
+           href: Management-specification/Shanghai.md
+           - name: 陕西
+           href: Management-specification/Shanxi.md
+           - name: 四川
+           href: Management-specification/Sichuan.md
+           - name: 新疆
+           href: Management-specification/Xinjiang.md
+           - name: 云南
+           href: Management-specification/Yunnan.md
+           - name: 浙江
+           href: Management-specification/Zhejiang.md
