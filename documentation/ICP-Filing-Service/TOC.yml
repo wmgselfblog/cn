@@ -63,3 +63,41 @@
            href: Management-specification/Yunnan.md
            - name: 浙江
            href: Management-specification/Zhejiang.md
+  - name: 常见问题
+    items:
+        - name: 备案基本问题
+        href: FAQ/Problem-summary.md
+        - name: 备案拦截排查
+        href: FAQ/Intercept-troubleshooting.md
+        - name: 备案密码找回办法
+        href: FAQ/ICP-Filing-Password-Recovery-Method.md
+        - name: 公安备案常见问题
+        href: FAQ/Public-Security-Bureau-Filing-Common-Problems.md
+        - name: 经营性ICP备案
+        href: FAQ/Operational-ICP-Filing.md
+        - name: 取消接入说明
+        href: FAQ/Cancel-Access.md
+  - name: 用户协议
+    items:
+        - name: 协助更改备案信息服务在线服务条款
+        href: Protocol/Assist-in-changing-the-filing-information-service-online-terms-of-service.md
+        - name: 信息安全管理协议
+        href: Protocol/Information-Security-Management-Protocol.md
+  - name: 文档下载
+    items:
+        - name: 网站核验单信息
+        href: Loading/Website-verification-information.md
+        - name: 核验单样例
+        href: Loading/Verification-sample.md
+          - name: 常见资料下载
+          items:
+            - name: 各省备案授权书
+            href: Common-data/Provincial-filing-authorization.md
+            - name: 全国核验单下载
+            href: Common-data/National-verification-checklist-download.md
+            - name: 广东省个人核验单下载
+            href: Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
+            - name: 广东省单位核验单下载
+            href: Common-data/Guangdong-Province-Unit-verification-form-download.md
+            - name: 北京地区多域名核验单
+            href: Common-data/ Beijing-multi-domain-verification-form.md
