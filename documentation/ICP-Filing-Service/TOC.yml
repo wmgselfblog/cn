@@ -101,3 +101,17 @@
             href: Common-data/Guangdong-Province-Unit-verification-form-download.md
             - name: 北京地区多域名核验单
             href: Common-data/ Beijing-multi-domain-verification-form.md
+  - name: 流程帮助
+    items:
+      - name: 工信部短信验证说明
+      href: Process/Recording-SMS-verification-instructions.md
+      - name: 各省补充材料说明
+      href: Process/Provincial-supplementary-materials.md
+      - name: 关于网站备案域名核验功能说明
+      href: Process/Verification-function-description.md
+      - name: 京东云“备案用时多久送多久”说明
+      href: Process/How-long-does-it-take-to-file-for-a-long-time.md
+      - name: 线下备案注销汇总
+      href: Process/Offline-cancel-cancellation-summary.md
+      - name: 京东云备案注销申请方式
+      href: Process/Cancel-Filing-application-method.md
